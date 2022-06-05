@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 
@@ -8,7 +7,6 @@ import styled from 'styled-components'
 function Login() {
     return (
         <>
-            <Header />
             <Container>
                 <Cta>
                     <LogoOne src="/images/cta-logo-onee copy.png" />
@@ -44,7 +42,7 @@ const Container = styled.div`
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: -1;
+        z-index: 0;
     }
 `
 const Cta = styled.div`
@@ -55,6 +53,7 @@ const Cta = styled.div`
     flex-direction: column;
     margin-top: 100px;
     align-items: center;
+    z-index : 2;
 
     
 `

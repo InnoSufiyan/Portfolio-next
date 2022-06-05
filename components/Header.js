@@ -31,7 +31,7 @@ function Header() {
                 </div>
             </NavMenu>
             <Link href='/login'>
-                <UserImg src="https://yt3.ggpht.com/ytc/AKedOLQADltt0SdHv64U08B5zuCISyIJjy4wgorAHTdhtw=s900-c-k-c0x00ffffff-no-rj" />
+                <UserImg src="/images/unnamed.jpg" />
             </Link>
         </Nav>
     )
